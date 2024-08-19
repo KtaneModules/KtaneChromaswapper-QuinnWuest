@@ -107,7 +107,6 @@ public class ChromaswapperScript : MonoBehaviour
             _priorityString = "1THE3QUICK5BROWN7FX9JMPS0V24LAZY6DG8";
         else
             _priorityString = "0PLO98IKMJU76YHNBGT54RFVCDE32WSXZAQ1";
-
         var list = new List<char>();
         var sn = BombInfo.GetSerialNumber();
         for (int i = 0; i < _priorityString.Length; i++)
@@ -121,7 +120,7 @@ public class ChromaswapperScript : MonoBehaviour
             new int[6]{3, 9, 15, 21, 27, 33},
             new int[6]{4, 10, 16, 22, 28, 34},
             new int[6]{5, 11, 17, 23, 29, 35},
-            new int[6]{0, 1, 2, 3, 4, 4},
+            new int[6]{0, 1, 2, 3, 4, 5},
             new int[6]{6, 7, 8, 9, 10, 11},
             new int[6]{12, 13, 14, 15, 16, 17},
             new int[6]{18, 19, 20, 21, 22, 23},

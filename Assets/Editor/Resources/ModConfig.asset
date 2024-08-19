@@ -14,7 +14,7 @@ MonoBehaviour:
   id: ChromaswapperModule
   title: Chromaswapper
   author: Quinn Wuest
-  description: "Chromaswapper\r\n\r\nMade by Quinn Wuest\r\n\r\n[url=https://ktane.timwi.de/HTML/Chromaswapper.html]Manual
+  description: "Colo(u)rswapper, alternatively\n\r\nMade by Quinn Wuest\r\n\r\n[url=https://ktane.timwi.de/HTML/Chromaswapper.html]Manual
     HTML[/url]\r\n[url=https://ktane.timwi.de/PDF/Chromaswapper.pdf]Manual PDF[/url]"
   version: 1.0
   outputFolder: build
