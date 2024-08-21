@@ -246,6 +246,7 @@ public class ChromaswapperScript : MonoBehaviour
         {
             Debug.LogFormat("[Chromaswapper #{0}] Module solved with color grid {1}.", _moduleId, _colorGridCurrent.Select(i => i.ToString()[0]).Join(""));
             _moduleSolved = true;
+            Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
             Module.HandlePass();
         }
     }
